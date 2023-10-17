@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+    color: #000;
+    font-weight: normal;
+    line-height: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 33.3%;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+    
+}
+
+.container .box-1{
+    float: left;
+    width: 50%;
+}
+
+.container .box-1 h1 {
+    text-align: center;
+}
+
+.container .box-2 ul {
+    list-style: none;
+    
+}
+
+.container .box-2 ul li{
+    left: 50px;
+}
+
+.container .box-2 ol{
+    list-style: none;
+}
